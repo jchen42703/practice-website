@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/animation.css">
+    <link rel="stylesheet" href="static/largeScreen.css">
     <script src="https://kit.fontawesome.com/dece7f23a7.js" crossorigin="anonymous"></script>
     <title>Joseph Chen</title>
 </head>
@@ -12,60 +14,73 @@
   <div class="hero-image">
     <div class="hero-text">
       <h1>Hi! I'm Joseph!</h1>
-      <p>Just some high school nerd who loves AI research and web development.</p>
-      <a href="#contact" class="button1" style="margin-top: 5%;">Contact</a>
-      <a href="resources/resume.pdf" class="button1" style="margin-top: 5%;">Resume</a>
+      <p>Just some high school nerd who loves AI research and web development!</p>
+      <div class="two-button-grid" style="margin-top: 5%;">
+        <a href="#contact" class="button1" style="margin-top: 5%;">Contact</a>
+        <a href="resources/resume.pdf" class="button1" style="margin-top: 5%;">Resume</a>
+      </div>
     </div>
   </div>
 
   <!-- research info -->
-  <div class="hidden section-header">
-    <h1>I. Research</h1>
-  </div>
-  <div class="hidden info">
-    <h1>Capsule Networks for the Automated Segmentation of Left Atrium in Cardiac MRI</h1>
-    <img src="img/la_003.gif" alt="GIF">
-    <div class="code-paper-div">
-      <a href="https://github.com/jchen42703/CapsNetsLASeg" class="button1">Code</a>
-      <a href="resources/Capsule_Networks_for_the_Automated_Segmentation_of_the_Left_Atrium_in_Cardiac_MRI.pdf" class="button1">Paper</a>
+  <div class="header-wrapper">
+    <div class="animation-element slide-left section-header">
+      <h1>I. Research</h1>
     </div>
   </div>
 
-  <div class="hidden info">
-    <h1>2D Convolutional Neural Networks for Automated Kidney and Renal Tumor Segmentation</h1>
-    <img src="img/la_003.gif" alt="GIF">
-    <div class="code-paper-div">
-      <a href="https://github.com/jchen42703/kits19-cnn" class="button1">Code</a>
-      <a href="https://kits.lib.umn.edu/wp-content/uploads/2019/11/jchen3_2.pdf" class="button1">Publication</a>
+  <div class="info-container-wrapper">
+    <div class="animation-element slide-left info-container info">
+      <h1>Capsule Networks for the Automated Segmentation of Left Atrium in Cardiac MRI</h1>
+      <img src="img/la_003.gif" alt="GIF">
+      <div class="two-button-grid">
+        <a href="https://github.com/jchen42703/CapsNetsLASeg" class="button1">Code</a>
+        <a href="resources/Capsule_Networks_for_the_Automated_Segmentation_of_the_Left_Atrium_in_Cardiac_MRI.pdf" class="button1">Paper</a>
+      </div>
+    </div>
+
+    <div class="animation-element slide-left info-container info">
+      <h1>2D Convolutional Neural Networks for Automated Kidney and Renal Tumor Segmentation</h1>
+      <img src="img/la_003.gif" alt="GIF">
+      <div class="two-button-grid">
+        <a href="https://github.com/jchen42703/kits19-cnn" class="button1">Code</a>
+        <a href="https://kits.lib.umn.edu/wp-content/uploads/2019/11/jchen3_2.pdf" class="button1">Publication</a>
+      </div>
     </div>
   </div>
 
   <!-- Web dev info -->
-  <div class="hidden section-header">
-    <h1>II. Web Development</h1>
+  <div class="header-wrapper">
+    <div class="animation-element slide-left section-header">
+      <h1>II. Web Development</h1>
+    </div>
   </div>
 
-  <div class="hidden info">
-    <h1>MIT Hacking Medicine 2019 Submission</h1>
-    <span>An App for Automatically Detecting Blast Cells</span>
-    <img src="img/hackathon_app_faster.gif" alt="GIF">
-    <div class="padding"></div>
-    <a href="https://github.com/jchen42703/hacking_medicine_2019" class="button1">Code</a>
-  </div>
+  <div class="info-container-wrapper">
+    <div class="animation-element slide-left info-container info">
+      <h1>MIT Hacking Medicine 2019 Submission</h1>
+      <span>An App for Automatically Detecting Blast Cells</span>
+      <br>
+      <img src="img/hackathon_app_faster.gif" alt="GIF">
+      <br>
+      <a href="https://github.com/jchen42703/hacking_medicine_2019" class="button1">Code</a>
+    </div>
 
-  <div class="hidden info">
-    <h1>QHSS Cyber</h1>
-    <span>President</span>
-    <br/>
-    <span>Web Development Club // Hosting workshops and working on collaborative projects</span>
-    <img src="img/qhsscyber_v2_demo.gif" alt="GIF">
-    <div class="padding"></div>
-    <a href="https://qhsscyber.github.io/" class="button1">Website</a>
+    <div class="animation-element slide-left info-container info">
+      <h1>QHSS Cyber</h1>
+      <span>President</span>
+      <br>
+      <span>Web Development Club // Hosting workshops and working on collaborative projects</span>
+      <br>
+      <img src="img/qhsscyber_v2_demo.gif" alt="GIF">
+      <br>
+      <a href="https://qhsscyber.github.io/" class="button1">Website</a>
+    </div>
   </div>
 
   <footer>
     <h3 id="contact">Contact</h3>
-    <span>Contact us at qhsscyber "at" gmail "dot" com or at the links below.</span>
+    <span>Contact me at jchen42703 "at" gmail "dot" com or at the links below.</span>
     <br>
     <a href="https://www.linkedin.com/in/joseph-chen-47b74615a/">
       <i class="fab fa-linkedin"></i>
@@ -78,7 +93,7 @@
     </a>
   </footer>
 
-  <script type="text/javascript" src="static/scripts.js"></script>
+  <script type="text/javascript" src="static/animation.js"></script>
 
 </body>
 
