@@ -1,10 +1,9 @@
-// for fading in the elements
 (function() {
   var elements;
   var windowHeight;
 
   function init() {
-    elements = document.querySelectorAll('.hidden');
+    elements = document.querySelectorAll('.animation-element');
     windowHeight = window.innerHeight;
   }
 
@@ -13,8 +12,8 @@
       var element = elements[i];
       var positionFromTop = elements[i].getBoundingClientRect().top;
       if (positionFromTop - windowHeight <= 0) {
-        element.classList.add('info-container');
-        element.classList.remove('hidden');
+        element.classList.add('in-view');
+        // element.classList.remove('hidden');
       }
     }
   }
