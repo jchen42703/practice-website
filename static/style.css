@@ -67,12 +67,12 @@ a.button1:hover {
 
 /* static backgrounds */
 .header-wrapper {
-  background-color: black;
+  background-color: #1F0818;
   height: 20vh;
 }
 
 .info-container-wrapper {
-  background-color: orange;
+  background-color: #C25349;
 }
 
 /* main containers */
